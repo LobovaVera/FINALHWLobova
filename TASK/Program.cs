@@ -12,7 +12,7 @@ PrintArray(newArray);
 
 string[] GetArray()
 {
-    Console.WriteLine("Введите несколько слов через пробел");
+    Console.WriteLine("Введите несколько слов через пробел без запятых");
     string ourLine = Console.ReadLine()!;
     string[] array = ourLine.Split(' ');
     return array;
